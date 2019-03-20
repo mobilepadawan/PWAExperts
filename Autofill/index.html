@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Autosalvar Formulario</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <script defer src="js/autosalvar.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper blue darken-4">
+                <a href="#" class="brand-logo left"><img src="images/logo.png"></a>
+                <ul id="nav-mobile" class="right"> 
+                    <li class="red" id="cancelar"><a href="#"><i class="material-icons" alt="Cancelar">cancel</i></a></li>
+                    <li class="green" id="enviar"><a href="#"><i class="material-icons" alt="Enviar">send</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <h4 class="center">Perfil de usuario</h4>
+        <div class="row margenes-laterales" id="formu">
+            <form class="col s12" id="formulario">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="Nombre" id="first_name" type="text" class="validate">
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Apellido" id="last_name" type="text" class="validate">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field margenes-laterales col s12">
+                        <input placeholder="Correo electrónico" id="email" type="email" class="validate">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="Contraseña" id="password" type="password" class="validate">
+                    </div>
+                </div>
+                <div class="row">
+                    <form class="col s10">
+                        <div class="row">
+                            <textarea placeholder="Describa su perfil" id="profile" class="materialize-textarea"></textarea>                        </div>
+                    </form>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
