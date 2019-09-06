@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>URI Schemes</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <script defer src="js/urischemes.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper blue darken-4">
+                <a href="#" class="brand-logo left"><img src="images/logo.png"></a>
+                <ul id="nav-mobile" class="right"> 
+                </ul>
+            </div>
+        </nav>
+        <h4 class="center">URI Schemes</h4>
+        <div class="row margenes-laterales">
+            <p>A través de los URI Schemes, puedes hacer que tu <b>PWA interactúe con otras aplicaciones</b> y/o funciones de tus dispositivos.</p>
+            <p>A través del menú flotante, podrás realizar las siguientes acciones:</p>
+            <ul>
+                <li><i class="material-icons">phone</i><span>Llamar por teléfono convencional</span></li>
+                <li><i class="material-icons">message</i><span>Enviar un SMS</span></li>
+                <li><i class="material-icons">perm_phone_msg</i><span>Enviar un MSG por WhatsApp</span></li>
+                <li><i class="material-icons">camera_front</i><span>Iniciar una videoconferencia por Skype</span></li>
+                <li><i class="material-icons">location_on</i><span>Abrir el Mapa/GPS de tu teléfono</span></li>
+            </ul>
+
+            <div class="fixed-action-btn click-to-toggle">
+                <a class="btn-floating btn-large red z-depth-3" id="floatingButton"><i class="large material-icons">code</i></a>
+                <ul>
+                    <li id="llamar"><a class="btn-floating black z-depth-4"><i class="material-icons">phone</i></a></li> <!--Llamar-->
+                    <li id="sms"><a class="btn-floating gray z-depth-4"><i class="material-icons">message</i></a></li> <!--SMS-->
+                    <li id="wapp"><a class="btn-floating green z-depth-4"><i class="material-icons">perm_phone_msg</i></a></li> <!--WhatsApp-->
+                    <li id="skype"><a class="btn-floating blue darken-3 z-depth-4"><i class="material-icons">camera_front</i></a></li> <!--Skype-->
+                    <li id="gps"><a class="btn-floating brown z-depth-4"><i class="material-icons">location_on</i></a></li> <!--Map-->
+                </ul>
+            </div>              
+        </div>
+    </body>
+</html>
