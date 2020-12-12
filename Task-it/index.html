@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>T@sk-it!</title>
+    <link rel="icon" type="image/png" href="taskit-icon-512.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/materialize.min.js"></script>
+    <script src="js/JQuery-3.5.1.min.js"></script>
+    <script defer src="js/tareas.js"></script>
+    <script src="upup.sw.min.js"></script>
+    <script src="upup.js"></script>
+    <script src="offline.js"></script>
+  </head>
+  <body>
+      <div class="col s12 m8 l6">
+        <div class="center" id="div-header">
+            <h4>T@sk-it!</h4>
+        </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><input type="text" id="nuevatarea" placeholder="Agregar tarea"></td>
+                        <td class="center"><button class="btn-floating blue" id="buttonAdd" ><i class="material-icons">add</i></button></td>
+                    </tr>
+                </tbody>
+            </table>    
+            <table class="striped">
+                <thead>
+                    <tr class="black white-text">
+                        <th>Descripción</th>
+                        <th class="center">Completa</th>
+                    </tr>
+                </thead>
+                <tbody id="listadotareas">
+                    <!-- Se completa desde JavaScript -->
+                </tbody>
+            </table>    
+            </div>
+      </div>
+  </body>
+</html>
