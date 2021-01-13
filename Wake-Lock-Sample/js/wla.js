@@ -29,12 +29,15 @@ function pausoAutoBloqueo() {
 }
 
 function liberoAutoBloqueo() {
-    // wakeLock.release();
     wakeLock = null;
     mensaje = "Se activó el autobloqueo de pantalla."
     lock.src = "images/unlocked.png"
     estilos = "green darken-4 white-text"
     pausado = false
+    setTimeout(() => {
+        location.reload()
+        wakeLock.release();
+}, 2100);
 }
 
 function mostrarMensaje(classes) {
