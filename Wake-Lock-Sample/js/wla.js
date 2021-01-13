@@ -35,8 +35,8 @@ function liberoAutoBloqueo() {
     estilos = "green darken-4 white-text"
     pausado = false
     setTimeout(() => {
+        //wakeLock.release();
         location.reload()
-        wakeLock.release();
 }, 2100);
 }
 
