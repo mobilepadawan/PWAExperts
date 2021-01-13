@@ -8,8 +8,8 @@ lock.addEventListener("click", () => {
         if (pausado) { liberoAutoBloqueo() } else { pausoAutoBloqueo() }
     } else {
         mensaje = "Su navegador no soporta Wake Lock API"
-        mostrarMensaje()
     }
+    mostrarMensaje()
 })
 
 function pausoAutoBloqueo() {
@@ -22,7 +22,6 @@ function pausoAutoBloqueo() {
             mensaje = `Error: ${err.message}`
             pausado = false
         }
-        mostrarMensaje()
 }
 
 function liberoAutoBloqueo() {
@@ -31,7 +30,6 @@ function liberoAutoBloqueo() {
     mensaje = "Se activó el autobloqueo de pantalla."
     lock.src = "images/unlocked.png"
     pausado = false
-    mostrarMensaje()
 }
 
 function mostrarMensaje() {
