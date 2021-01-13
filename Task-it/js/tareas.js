@@ -44,9 +44,9 @@ function removerTarea(i) {
     let tareaid = "#tarea" + i
     $(tareaid).fadeOut(1000, function() {
         console.warn("Se eliminó la tarea: " + tareaid)
-    //     // tareas.splice(i, 1)
-    //     // localStorage.setItem("tareas", JSON.stringify(tareas))
-    //     // actualizoGrilla()            
+        tareas.splice(i, 1)
+        localStorage.setItem("tareas", JSON.stringify(tareas))
+        actualizoGrilla()            
 })
 }
 
