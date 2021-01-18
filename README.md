@@ -20,4 +20,9 @@ Another tutorial where I manage a cache storage solution using UpUp JS to build 
 One of the newest PWA characteristics: lock the screen to prevent the automatic power off, to show a text or another kind of content on the screen. [Waiting for publishing](https://www.pwaexperts.io/)
 
 ## iOS Metatags
-How to implement the classic iOS Metatags on iOS to ADD TO HOME SCREEN our webapps: [Add to home screen](https://pwaexperts.io/tutoriales/agregar-pwa-escritorio-ios)
+How to implement the classic iOS Metatags into the HEAD section on the HTML documentos, to improve the ADD TO HOME SCREEN on iOS for our webapps: [Add to home screen](https://pwaexperts.io/tutoriales/agregar-pwa-escritorio-ios)
+
+## URI-SCHENES
+This is a sample for how to improve our HTML link, going beyong the classic href="https" and href="mailto". There's exits many URL Schemes for interacting from your WebApps with another desktop and mobile aplications such as: Skipe, WhatsApp, Facebook, Twitter, Linkedin, Telegram, Facetime, and many others apps, throu a simple URL scheme.
+
+Don't miss out this fabulous and very useful tutorial, sliced in [Part I](https://www.pwaexperts.io/tutoriales/interactividad-hipervinculos-uri-schemes-pwa-1) and [Part II](https://www.pwaexperts.io/tutoriales/interactividad-hipervinculos-uri-schemes-pwa-2)
