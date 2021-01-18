@@ -25,4 +25,4 @@ How to implement the classic iOS Metatags into the HEAD section on the HTML docu
 ## URL-SCHEMES
 This is a sample for how to improve our HTML link, going beyong the classic href="https" and href="mailto". There's exits many URL Schemes for interacting from your WebApps with another desktop and mobile aplications such as: Skipe, WhatsApp, Facebook, Twitter, Linkedin, Telegram, Facetime, and many others apps, throu a simple URL scheme.
 
-Don't miss out this fabulous and very useful tutorial, sliced in [Part I](https://www.pwaexperts.io/tutoriales/interactividad-hipervinculos-uri-schemes-pwa-1) and [Part II](https://www.pwaexperts.io/tutoriales/interactividad-hipervinculos-uri-schemes-pwa-2)
+Don't miss out this fabulous and very useful tutorial, sliced in [Part I](https://www.pwaexperts.io/tutoriales/interactividad-hipervinculos-uri-schemes-pwa-1) and [Part II](https://www.pwaexperts.io/tutoriales/interactividad-hipervinculos-uri-schemes-pwa-2).
