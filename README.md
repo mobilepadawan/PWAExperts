@@ -1,7 +1,7 @@
 # PWAExperts
 This Project's Repository is exclusive to join my posts on PWAExperts.io blog (in spanish). I download here the projects who are part of a tutorial or article published by me.
 
-## Project's List
+## Projects List
 * Autofill
 * Task-it!
 * Wake-Lock-Sample
