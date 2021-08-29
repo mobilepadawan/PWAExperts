@@ -1,0 +1,48 @@
+{
+    "short_name": "Audio API",
+    "name": "PWA Audio",
+    "description": "Audio API",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF",
+    "orientation": "portrait",
+    "start_url": "index.html",
+    "display": "standalone",
+    "icons": [
+            {
+            "src": "icons/ru-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+            },
+            {
+            "src": "icons/ru-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+            },
+            {
+            "src": "icons/ru-144.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "maskable"
+            },
+            {
+            "src": "icons/ru-128.png",
+            "type": "image/png",
+            "sizes": "128x128",
+            "purpose": "maskable"
+            },
+            {
+            "src": "icons/ru-96.png",
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "maskable"
+            },
+            {
+            "src": "icons/ru-64.png",
+            "type": "image/png",
+            "sizes": "64x64",
+            "purpose": "maskable"
+            }            
+    ]
+}

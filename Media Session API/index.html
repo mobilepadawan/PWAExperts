@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Audio API</title>
+        <link rel="icon" href="icons/ru-64.png">
+        <meta name="apple-mobile-web-app-title" content="PWA">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+        <meta name="description" content="Author: Fernando Luna for the PWAExperts.io community, Music: The song could be an intellectual property by its own author, Category: Sample code for a tutorial programming article">
+        <link rel="apple-touch-icon" sizes="64x64" href="icons/ru-64.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="icons/ru-ios-120.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="icons/ru-ios-152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="icons/ru-ios-167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/ru-ios-180.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="icons/ru-ios-192.png">
+        <link rel="manifest" href="manifest.json">
+        <script src="upup.sw.min.js"></script>
+        <script src="upup.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link href="css/styles.css" rel="stylesheet">
+        <script defer src="js/audioapi.js"></script>
+    </head>
+    <body>
+        <h1>Audio API</h1>
+        <p></p>
+        <div style="text-align: center;">
+            <br><br>
+            <img id="cover" src="cover/blank.jpg" alt="Music cover" width="300px" height="300px">
+            <p id="label">No hay contenido en reproducción</p>
+            <br><br>
+            <button id="play" class="btn-flat blue darken-3"><i class="material-icons white-text">play_arrow</i></button>
+            <button id="pause" class="btn-flat black"><i class="material-icons white-text">pause</i></button>
+            <br><br>
+            <progress id="progress" width="100%" value="0"></progress>
+        </div>
+    </body>
+</html> 
