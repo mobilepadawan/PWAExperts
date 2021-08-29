@@ -23,18 +23,21 @@
         <link href="css/styles.css" rel="stylesheet">
         <script defer src="js/audioapi.js"></script>
     </head>
-    <body>
-        <h1>Audio API</h1>
-        <p></p>
+    <body style="background-color: black; color: darkgray;">
         <div style="text-align: center;">
+            <h1>Audio API</h1>
             <br><br>
             <img id="cover" src="cover/blank.jpg" alt="Music cover" width="300px" height="300px">
             <p id="label">No hay contenido en reproducción</p>
             <br><br>
+            <button id="play" class="btn-floating blue darken-3 btn-large waves-effect waves-light"><i class="material-icons white-text">play_arrow</i></button>
+            <button id="pause" class="btn-floating black waves-effect waves-light"><i class="material-icons white-text">pause</i></button>
+<!-- 
             <button id="play" class="btn-flat blue darken-3"><i class="material-icons white-text">play_arrow</i></button>
-            <button id="pause" class="btn-flat black"><i class="material-icons white-text">pause</i></button>
+            <button id="pause" class="btn-flat black"><i class="material-icons white-text">pause</i></button> -->
             <br><br>
             <progress id="progress" width="100%" value="0"></progress>
+            <!-- <progress id="progress" width="100%" value="0"></progress> -->
         </div>
     </body>
 </html> 
