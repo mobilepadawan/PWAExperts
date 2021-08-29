@@ -1,5 +1,5 @@
 const audio = document.createElement('audio')
-      audio.src="./sources/Tones_and_I_Dance_Monkey.mp3"
+      audio.src="./Sources/Tones_and_I_Dance_Monkey.mp3"
 
 //Controlar los elementos HTML
 const play = document.getElementById("play")
