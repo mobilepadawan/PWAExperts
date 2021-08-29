@@ -24,7 +24,7 @@ audio.addEventListener("playing", ()=> {
 })
 
 audio.addEventListener("pause", ()=> {
-   cover.src = "cover/blank.jpg"
+   cover.src = "cover/blank.png"
    label.textContent = "Reproducción pausada..."
 })
 
