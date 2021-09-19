@@ -7,6 +7,12 @@ This Project's Repository is exclusive to join my posts on PWAExperts.io blog (i
 * Wake-Lock-Sample
 * iOS Metatags
 * uri-schemes
+* Media Session API
+
+##Media Session API
+Through this simple project we can explore how to manage the **<HTML5 audio tag>** as a JavaScript Element. In addition to the audio tag, we add the **PWA Media Session API** to manage the Audio music from the **Notification Center** of the different **operating systems** (mobile also desktop).
+
+![Media Session API](https://1drv.ms/u/s!Al1tkr0omKJQg4BdHCccK4wFeAgOKA)
 
 ## Autofill
 This project is part of the following article: [Managing localStorage data with JS](https://pwaexperts.io/tutoriales/gestiona-javascript-datos-almacenando-localstorage)
